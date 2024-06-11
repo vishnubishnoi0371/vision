@@ -23,7 +23,7 @@ const HairRemoval = () => {
             <div className="shadow-[0px_16px_25.3px_0px_#00000014] hover:shadow-none group flex flex-col items-center mt-6 md:mt-0">
               <div className="relative">
                 <img
-                  className="w-100"
+                  className="!w-full !sm:w-[364px] sm:h-[232px]"
                   src={hairRemoval.pic}
                   alt="hairRemovalImage"
                 />

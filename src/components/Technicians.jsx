@@ -19,7 +19,7 @@ const Technicians = () => {
           {TechniqueData.map((Technique, index) => (
             <div className="flex flex-col md:flex-row  px-3 items-center mt-6 md:mt-0">
               <div
-                className={`w-full bg-white  pt-[30px] mt-[200px] md:mt-0 border-[1.82px] border-pinkPrimary h-[336px] px-6 lg:px-11  duration-300  `}
+                className={`w-full bg-white  pt-[30px] mt-[-100px] md:mt-0 border-[1.82px] border-pinkPrimary h-[336px] px-6 lg:px-11  duration-300  `}
               >
                 <p className="font-normal text-xl2 leading-7 text-center font-Marcellus text-black mb-2 ">
                   {Technique.title}

@@ -6,7 +6,7 @@ import electrolysisSetup from "../Assets/images/webp/electrolysisSetUp.webp";
 const About = () => {
   return (
     <div className="bg-aboutBackground bg-cover bg-center  bg-no-repeat">
-      <div className="container max-w-[1164px] pt-10 md:pt-14 lg:pt-20 pb-32 mx-auto">
+      <div className="container max-w-[1164px] pt-10 md:pt-14 lg:pt-20 md:pb-32 mx-auto">
         <div className="flex flex-row lg:pt-5 justify-center flex-wrap">
           <div className="w-full md:w-5/12 px-3 ">
             <img

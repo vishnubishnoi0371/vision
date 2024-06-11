@@ -1,6 +1,8 @@
 import electrolysis from "../Assets/images/webp/electrolysis.webp";
 import hayafebber from "../Assets/images/webp/hayaFebber.webp";
 import ettyFabber from "../Assets/images/webp/ettyFabber.webp";
+import consultation from "../Assets/images/webp/consultation.webp";
+import wrinkle from "../Assets/images/webp/wrinkles.webp";
 
 export const hairRemovalData = [
   {
@@ -15,7 +17,7 @@ export const hairRemovalData = [
   },
 
   {
-    pic: electrolysis,
+    pic: consultation,
     title: "Electrolysis",
     time: "Time",
     timeMin: " ~ 15 Min",
@@ -26,7 +28,7 @@ export const hairRemovalData = [
   },
 
   {
-    pic: electrolysis,
+    pic: wrinkle,
     title: "Electrolysis",
     time: "Time",
     timeMin: " ~ 15 Min",

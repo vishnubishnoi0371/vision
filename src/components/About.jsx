@@ -20,7 +20,7 @@ const About = () => {
               src={fabElectrolysis}
               alt="electrolysis_image"
             />
-            <p className="text-sm md:text-base font-Poppins text-center md:text-start text-black leading-lg opacity-80 md:max-w-[461px] font-normal pt-4 md:pt-11 mb-6">
+            <p className="text-sm md:text-base px-3 md:px-0 font-Poppins text-center md:text-start text-black leading-lg opacity-80 md:max-w-[461px] font-normal pt-4 md:pt-11 mb-6">
               We understand that each client is unique, which is why we tailor
               our treatments to your specific needs and concerns. Whether you're
               seeking laser hair removal, electrolysis for permanent hair

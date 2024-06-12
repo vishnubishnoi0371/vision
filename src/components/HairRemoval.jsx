@@ -80,7 +80,7 @@ const HairRemoval = () => {
         </div>
         <span className="flex justify-center items-center mb-14 mt-8 pt-10 lg:pt-0  md:mb-16 lg:mb-[100px]  md:mt-[50px]">
           <CommonBtn
-            className="border text-lightPink border-purplePrime hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500  px-[65px] py-[14px]  "
+            className="border-gradient border relative z-20 bg-white text-lightPink hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500  px-[65px] py-[14px]"
             btnName="See More"
           />
         </span>

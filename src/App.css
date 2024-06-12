@@ -3,3 +3,7 @@ body {
   max-width: 1920px !important;
   margin: auto;
 }
+.border-gradient {
+  border-image-source: linear-gradient(90deg, #f498a2 0%, #3a4356 100%);
+  border-image-slice: 1;
+}

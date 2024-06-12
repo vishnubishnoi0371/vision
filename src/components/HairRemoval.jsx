@@ -4,12 +4,18 @@ import { hairRemovalData } from "../common/Helper";
 import Heading from "../common/Heading";
 import { VideoIcon } from "../common/icon";
 import leafEllp from "../Assets/images/webp/leafEllipse.webp";
+import leafLeftEllp from "../Assets/images/webp/aboutLeafEllp.webp";
 const HairRemoval = () => {
   return (
     <div className="relative">
       <img
         className="pointer-events-none absolute right-0 top-1 z-0 max-w-[372px] max-h-[306px]"
         src={leafEllp}
+        alt="ellipse"
+      />
+      <img
+        className="pointer-events-none absolute left-0 -bottom-36 z-0 max-w-[372px] max-h-[306px]"
+        src={leafLeftEllp}
         alt="ellipse"
       />
       <div className="container max-w-[1164px] px-3 mx-auto pt-16">
@@ -19,7 +25,7 @@ const HairRemoval = () => {
             className="max-w-[484px] relative z-10 text-center lg:text-start"
           />
 
-          <p className="text-sm md:text-base font-normal px-5 sm:px-0 text-center lg:text-start mt-4 lg:mt-0 font-Poppins text-black opacity-70 max-w-[462px]">
+          <p className="text-sm md:text-base font-normal leading-lg px-5 sm:px-0 text-center lg:text-start mt-4 lg:mt-0 font-Poppins text-black opacity-70 max-w-[462px]">
             Explore your options with a free consultation. Our experts will
             guide you through our equipment and address all your questions,
             ensuring you're informed and confident in your choices.
@@ -31,10 +37,10 @@ const HairRemoval = () => {
               key={index}
               className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-3 pt-6 lg:pt-0"
             >
-              <div className="shadow-[0px_16px_25.3px_0px_#00000014] h-full hover:shadow-none group flex flex-col items-center mt-6 lg:mt-0">
+              <div className="shadow-[0px_0px_28.3px_0px_#00000026] h-full hover:shadow-none group flex flex-col items-center mt-6 lg:mt-0">
                 <div className="relative">
                   <img
-                    className="!w-full !md:w-[364px] xl:min-w-[365px] lg:h-[232px]"
+                    className="!w-full !md:w-[364px] object-cover xl:min-w-[365px] lg:h-[232px]"
                     src={hairRemoval.pic}
                     alt="hairRemovalImage"
                   />
@@ -54,7 +60,7 @@ const HairRemoval = () => {
                       {hairRemoval.timeMin}
                     </span>
                   </p>
-                  <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-[5px] ">
+                  <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-3 ">
                     {hairRemoval.cost}
                     <span className=" text-lightPink group-hover:text-white">
                       {hairRemoval.costInDollar}
@@ -72,9 +78,9 @@ const HairRemoval = () => {
             </div>
           ))}
         </div>
-        <span className="flex justify-center items-center my-8 pt-10 lg:pt-0  md:mb-16 lg:mb-[100px]  md:mt-[50px]">
+        <span className="flex justify-center items-center mb-14 mt-8 pt-10 lg:pt-0  md:mb-16 lg:mb-[100px]  md:mt-[50px]">
           <CommonBtn
-            className="border text-lightPink hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500 border-lightPink px-[65px] py-[14px]  "
+            className="border text-lightPink border-purplePrime hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500  px-[65px] py-[14px]  "
             btnName="See More"
           />
         </span>

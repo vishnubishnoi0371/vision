@@ -6,6 +6,14 @@ module.exports = {
       backgroundSize: {
         full: "100% 100%",
       },
+      borderImage: {
+        gradientBorder: {
+          border: "2px solid",
+          borderImageSource:
+            "linear-gradient(0deg, #F498A2, #F498A2), linear-gradient(109.13deg, #F498A2 -49.43%, #3A4356 124.85%)",
+          borderImageSlice: 1,
+        },
+      },
       backgroundImage: {
         aboutBackground: "url('./Assets/images/webp/techniqueBg.webp')",
         "btn-bg":

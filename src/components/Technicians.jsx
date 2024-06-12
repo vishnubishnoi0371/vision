@@ -1,14 +1,20 @@
 import React from "react";
 import { TechniqueData } from "../common/Helper";
 import Heading from "../common/Heading";
+import leafEllp from "../Assets/images/webp/leafEllipse.webp";
 
 const Technicians = () => {
   return (
-    <div className="bg-aboutBackground bg-cover bg-center bg-no-repeat min-h-[1350px] xs:min-h-[1600px] sm:min-h-[800px] md:min-h-[900px] lg:min-h-[1000px]">
+    <div className="bg-aboutBackground relative overflow-hidden bg-cover bg-center bg-no-repeat min-h-[1350px] xs:min-h-[1600px] sm:min-h-[800px] md:min-h-[900px] lg:min-h-[1000px]">
+      <img
+        className="pointer-events-none absolute right-0 hidden lg:block -bottom-24 z-40 max-w-[372px] max-h-[306px]"
+        src={leafEllp}
+        alt="ellipse"
+      />
       <div className="container max-w-[1164px] pt-[70px] md:pt-14 lg:pt-20 mx-auto">
         <div className="flex justify-center flex-col items-center">
           <Heading commonHeading="Meet Our Technicians" className="mb-4" />
-          <p className="text-center text-sm sm:text-base font-Poppins text-black opacity-80 max-w-[777px]  px-6 md:px-0 md:mb-[70px]">
+          <p className="text-center text-sm sm:text-base font-Poppins text-black leading-lg opacity-80 max-w-[777px]  px-6 md:px-0 md:mb-[70px]">
             Expert technicians specializing in electrolysis and laser hair
             removal, utilizing Candela technology for top-notch care and optimal
             results.
@@ -24,7 +30,7 @@ const Technicians = () => {
             >
               <div className="border-b-[1.82px] border-[1.82px] border-l-[1.82px] border-r-[1.82px] border-pinkPrimary h-[540px] xsm2:h-[590px] xs:h-[650px] xxs:h-[700px] sm:h-[550px] md:h-[580px] xlg:h-[620px] lg:h-[648px]">
                 <div className="w-full bg-white pt-[30px] border-b-[1.82px] border-pinkPrimary h-[336px] px-6 lg:px-11 duration-300">
-                  <p className="font-normal text-xl2 leading-xl text-center font-Playfair text-black mb-2">
+                  <p className="font-normal text-xl2 leading-md text-center font-Playfair text-black mb-2">
                     {technique.title}
                   </p>
                   <p className="font-normal text-base font-Poppins mx-auto text-center leading-lg text-black mb-9 max-w-[317px]">

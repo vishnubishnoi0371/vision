@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div className="bg-aboutBackground bg-cover bg-center  bg-no-repeat">
       <div className="container max-w-[1164px] pt-10 md:pt-14 lg:pt-20 md:pb-10 xl:pb-32 mx-auto">
-        <div className="flex flex-col-reverse md:flex-row  lg:pt-5 justify-center flex-wrap">
-          <div className="w-full md:w-5/12 px-6 md:px-3 pt-6 ">
+        <div className="flex flex-col-reverse md:flex-row  lg:pt-5 justify-center items-center flex-wrap">
+          <div className="w-full md:w-5/12 px-6 md:px-3  ">
             <img
               className="w-full"
               src={fabElectrolysis}
@@ -22,14 +22,14 @@ const About = () => {
             </p>
             <CommonBtn
               className="border hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500 flex justify-center md:justify-start mx-auto md:mx-0 bg-btn-bg
- text-white px-7 py-[14px]  "
+ text-white px-7 py-[14px]"
               btnName="Read More"
             />
           </div>
           <div className="w-full md:w-7/12 px-3  ">
             <Heading
               commonHeading="About Fabelectrolysis"
-              className="mb-4 text-center md:text-start"
+              className="mb-4 text-center !leading-md md:text-start"
             />
 
             <p className=" text-base font-Poppins px-4 md:px-0 text-center mx-auto md:text-start text-black leading-xl opacity-80 max-w-[665px] font-normal  mb-10">

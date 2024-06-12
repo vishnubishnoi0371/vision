@@ -25,7 +25,7 @@ const Technicians = () => {
             >
               <div className="border-b-[1.82px] border-[1.82px] border-l-[1.82px] border-r-[1.82px] border-pinkPrimary h-[520px] xsm2:h-[590px] xs:h-[650px] xxs:h-[700px] sm:h-[550px] md:h-[580px] xlg:h-[620px] lg:h-[648px]">
                 <div className="w-full bg-white pt-[30px] border-b-[1.82px] border-pinkPrimary h-[336px] px-6 lg:px-11 duration-300">
-                  <p className="font-normal text-xl2 leading-xl text-center font-Marcellus text-black mb-2">
+                  <p className="font-normal text-xl2 leading-xl text-center font-Playfair text-black mb-2">
                     {Technique.title}
                   </p>
                   <p className="font-normal text-base font-Poppins mx-auto text-center leading-lg text-black mb-9 max-w-[317px]">
@@ -42,7 +42,7 @@ const Technicians = () => {
                         href="https://www.facebook.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="md:w-[60px] w-10 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
+                        className="md:w-[60px] w-10 hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-300 hover:-translate-y-3 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
                       >
                         <Facebook />
                       </a>
@@ -50,7 +50,7 @@ const Technicians = () => {
                         href="https://x.com/i/flow/login"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="md:w-[60px] w-10 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
+                        className="md:w-[60px] hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-300 hover:-translate-y-3 w-10 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
                       >
                         <Twiter />
                       </a>
@@ -58,7 +58,7 @@ const Technicians = () => {
                         href="https://www.instagram.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="md:w-[60px] w-10 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
+                        className="md:w-[60px] hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-300 hover:-translate-y-3 w-10 h-10 md:h-[60px] bg-lightPink rounded-full flex justify-center items-center"
                       >
                         <Insta />
                       </a>

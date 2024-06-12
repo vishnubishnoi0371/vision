@@ -18,13 +18,16 @@ const HairRemoval = () => {
           you're informed and confident in your choices.
         </p>
       </div>
-      <div className="flex flex-row justify-center flex-wrap">
+      <div className="flex flex-row -mx-3 justify-center flex-wrap">
         {hairRemovalData.map((hairRemoval, index) => (
-          <div key={index} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-3 ">
-            <div className="shadow-[0px_16px_25.3px_0px_#00000014] hover:shadow-none group flex flex-col items-center mt-6 lg:mt-0">
+          <div
+            key={index}
+            className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-3 pt-6 lg:pt-0"
+          >
+            <div className="shadow-[0px_16px_25.3px_0px_#00000014] h-full hover:shadow-none group flex flex-col items-center mt-6 lg:mt-0">
               <div className="relative">
                 <img
-                  className="!w-full !md:w-[364px] lg:h-[232px]"
+                  className="!w-full !md:w-[364px] xl:min-w-[365px] lg:h-[232px]"
                   src={hairRemoval.pic}
                   alt="hairRemovalImage"
                 />
@@ -33,24 +36,24 @@ const HairRemoval = () => {
                 </span>
               </div>
               <div
-                className={`w-full bg-white group-hover:bg-lightPink  p-4 md:p-[20px]  duration-300  `}
+                className={`w-full bg-white group-hover:bg-lightPink hover:h-full  p-4 md:p-[20px]  duration-300  `}
               >
-                <p className="font-normal text-2xl leading-xl font-Marcellus  group-hover:text-white text-black mb-2 ">
+                <p className="font-normal text-2xl leading-xl font-Marcellus  group-hover:text-white text-black mb-[5px] ">
                   {hairRemoval.title}
                 </p>
-                <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-2 ">
+                <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-[1px] ">
                   {hairRemoval.time}{" "}
                   <span className=" text-lightPink group-hover:text-white">
                     {hairRemoval.timeMin}
                   </span>
                 </p>
-                <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-1 ">
+                <p className="font-normal text-base font-Poppins leading-lg  group-hover:text-white text-black mb-[5px] ">
                   {hairRemoval.cost}
                   <span className=" text-lightPink group-hover:text-white">
                     {hairRemoval.costInDollar}
                   </span>
                 </p>
-                <p className="text-base leading-lg font-Poppins font-normal group-hover:text-white text-black opacity-80  mb-5 ">
+                <p className="text-base leading-lg font-Poppins font-normal lg:max-w-[304px] group-hover:text-white text-black opacity-80  mb-5 ">
                   {hairRemoval.description}
                 </p>
                 <CommonBtn
@@ -62,7 +65,7 @@ const HairRemoval = () => {
           </div>
         ))}
       </div>
-      <span className="flex justify-center items-center py-8 md:my-[50px]">
+      <span className="flex justify-center items-center my-8 pt-10 lg:pt-0  md:mb-16 lg:mb-[100px]  md:mt-[50px]">
         <CommonBtn
           className="border text-lightPink hover:shadow-[0px_7px_14.3px_0px_lightPink] duration-500 border-lightPink px-[65px] py-[14px]  "
           btnName="See More"

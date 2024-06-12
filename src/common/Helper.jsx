@@ -3,7 +3,7 @@ import hayafebber from "../Assets/images/webp/hayaFebber.webp";
 import ettyFabber from "../Assets/images/webp/ettyFabber.webp";
 import consultation from "../Assets/images/webp/consultation.webp";
 import wrinkle from "../Assets/images/webp/wrinkles.webp";
-
+//===================HainRemoval==================//
 export const hairRemovalData = [
   {
     pic: electrolysis,
@@ -18,26 +18,27 @@ export const hairRemovalData = [
 
   {
     pic: consultation,
-    title: "Electrolysis",
+    title: "Free Consultation",
     time: "Time",
     timeMin: " ~ 15 Min",
     cost: "Starting From",
-    costInDollar: " $22-$90",
+    costInDollar: " $0",
     description:
-      "Experience permanent hair removal with our Apilus XCell Pro electrolysis treatment. Achieve smooth, confident skin with lasting results.",
+      "Discover smooth, hair-free skin with our Candela GentleMax Pro laser hair removal. Enjoy the confidence of silky-smooth skin.",
   },
 
   {
     pic: wrinkle,
-    title: "Electrolysis",
+    title: "Fine Lines and Wrinkles",
     time: "Time",
-    timeMin: " ~ 15 Min",
+    timeMin: " ~ 30 Min",
     cost: "Starting From",
-    costInDollar: " $22-$90",
+    costInDollar: " $99",
     description:
-      "Experience permanent hair removal with our Apilus XCell Pro electrolysis treatment. Achieve smooth, confident skin with lasting results.",
+      "Revitalize skin: Laser treatment reduces lines, boosts collagen for firmness, smoothness, and a youthful glow.",
   },
 ];
+//===================Technique==================//
 export const TechniqueData = [
   {
     title: "Haya Fabber",

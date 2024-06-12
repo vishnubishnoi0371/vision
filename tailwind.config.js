@@ -8,11 +8,21 @@ module.exports = {
       },
       backgroundImage: {
         aboutBackground: "url('./Assets/images/webp/techniqueBg.webp')",
+        "btn-bg":
+          "linear-gradient(109.13deg, #F498A2 -49.43%, #3A4356 124.85%)",
       },
       colors: {
         grayPrimary: "#4e4e4e",
         lightPink: "#f498a2",
         pinkPrimary: "#fdebed",
+        purplePrime: "#936c7a",
+      },
+      screens: {
+        xs: "510px",
+        xsm: "450px",
+        xsm2: "430px",
+        xxs: "550px",
+        xlg: "850px",
       },
 
       fontFamily: {
@@ -27,6 +37,7 @@ module.exports = {
       lineHeight: {
         md: "120%",
         lg: "150%",
+        xl: "175%",
       },
     },
   },

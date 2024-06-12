@@ -6,7 +6,7 @@ import wrinkle from "../Assets/images/webp/wrinkles.webp";
 
 export const hairRemovalData = [
   {
-    pic: consultation,
+    pic: electrolysis,
     title: "Electrolysis",
     time: "Time",
     timeMin: " ~ 15 Min",

@@ -3,6 +3,7 @@ import hayafebber from "../Assets/images/webp/hayaFebber.webp";
 import ettyFabber from "../Assets/images/webp/ettyFabber.webp";
 import consultation from "../Assets/images/webp/consultation.webp";
 import wrinkle from "../Assets/images/webp/wrinkles.webp";
+import { Facebook, Insta, Twiter } from "./icon";
 //===================HainRemoval==================//
 export const hairRemovalData = [
   {
@@ -45,12 +46,21 @@ export const TechniqueData = [
     paragraph:
       "Specializes in laser, electrolysis, and the application of Candela technology.",
     pic: hayafebber,
+    socialLinks: [
+      { url: "https://www.facebook.com/", icon: <Facebook /> },
+      { url: "https://x.com/i/flow/login", icon: <Twiter /> },
+      { url: "https://www.instagram.com/", icon: <Insta /> },
+    ],
   },
-
   {
     title: "Etty Fabber",
     paragraph:
       "Specializes in laser, electrolysis, and the application of Candela technology.",
     pic: ettyFabber,
+    socialLinks: [
+      { url: "https://www.facebook.com/", icon: <Facebook /> },
+      { url: "https://x.com/i/flow/login", icon: <Twiter /> },
+      { url: "https://www.instagram.com/", icon: <Insta /> },
+    ],
   },
 ];
